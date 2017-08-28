@@ -16,7 +16,7 @@ from textblob import TextBlob
 ##########################################################################################
 ## Step 1. Setup the microphone, specifiy which mic to be selected & record sentiments speech about movie or product
     # Fav mic to be used as Plantronics others can use other mic.
-mic_name = "Transmit (Plantronics DA40)"
+mic_name ="Transmit (Plantronics DA40)"  #"Microphone (Realtek Audio)"
 
 # sample rate how often values are recorded. & Chunk size used to store the data in bytes (better to be power of 2 -> 512 or 1024 or 2048) 
 sample_rate = 48000
